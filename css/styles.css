@@ -1,0 +1,28 @@
+body {
+  background-color: #040601;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #040601;
+}
+.mainImage {
+  background-color: #040601;
+}
+.navbar-item {
+  color: white;
+}
+
+.navbar-item:hover {
+  color: wheat;
+}
+
+.mainText {
+  background-color: white;
+  width: 100%;
+}
+
+.slogan {
+  font-size: 3rem;
+  margin-top: 20px;
+}
