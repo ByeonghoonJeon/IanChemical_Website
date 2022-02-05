@@ -1,6 +1,7 @@
 body {
   background-color: #040601;
   width: 100%;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .navbar {
@@ -15,14 +16,68 @@ body {
 
 .navbar-item:hover {
   color: wheat;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.mainCompanyName {
+  color: white;
+  background-color: #7900ff;
+  width: fit-content;
+  text-align: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  margin-right: 0;
+}
+
+.mainButton {
+  margin-right: auto;
+}
+
+.mainSlogan1 {
+  color: white;
+  font-size: 4.5rem;
+  margin-bottom: 30px;
+}
+.mainSlogan2 {
+  color: white;
 }
 
 .mainText {
-  background-color: white;
+  background-color: #efefef;
   width: 100%;
 }
 
 .slogan {
-  font-size: 3rem;
   margin-top: 20px;
+}
+
+.AboutUs {
+  color: white;
+}
+
+#pail {
+  width: 70%;
+}
+
+.aboutUsTitle {
+  color: #548cff;
+}
+
+.borderLineColor {
+  color: #548cff;
+  opacity: 1;
+  height: 50px;
+  width: 40%;
+}
+
+.aboutUsText {
+  text-align: left;
+}
+
+.coreValue {
+  background-color: #393e46;
 }
