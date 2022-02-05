@@ -90,19 +90,56 @@ body {
 
 .coreValue {
   background-color: #222325;
+  padding: 100px;
 }
 
 .coreValueTitle {
   color: white;
-  margin-left: 200px;
 }
 
-.coreValueSubtitle {
-  color: white;
-  margin-left: 200px;
+.coreValueSubtitle,
+.card-title {
+  color: #548cff;
+  font-weight: bold;
 }
 
 .coreValueText {
   color: white;
-  margin-left: 200px;
+}
+
+#product {
+  width: 100%;
+  height: auto;
+}
+
+.whiteLine {
+  color: white;
+  opacity: 1;
+  height: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.card {
+  background-color: #323232;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.fa-snowflake,
+.fa-compress-arrows-alt,
+.fa-bars,
+.fa-times-circle,
+.fa-free-code-camp {
+  font-size: 3rem;
+}
+.form-group {
+  color: white;
+}
+
+#footer {
+  color: white;
 }
