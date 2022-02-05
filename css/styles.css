@@ -9,6 +9,7 @@ body {
 }
 .mainImage {
   background-color: #040601;
+  margin: 0;
 }
 .navbar-item {
   color: white;
@@ -35,6 +36,15 @@ body {
 
 .mainButton {
   margin-right: auto;
+}
+.blackButton {
+  background-color: #222831;
+  color: white;
+  border-width: 0;
+}
+.blackButton:hover {
+  background-color: #393e46;
+  color: white;
 }
 
 .mainSlogan1 {
@@ -79,5 +89,20 @@ body {
 }
 
 .coreValue {
-  background-color: #393e46;
+  background-color: #222325;
+}
+
+.coreValueTitle {
+  color: white;
+  margin-left: 200px;
+}
+
+.coreValueSubtitle {
+  color: white;
+  margin-left: 200px;
+}
+
+.coreValueText {
+  color: white;
+  margin-left: 200px;
 }
